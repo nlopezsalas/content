@@ -95,7 +95,7 @@ For… In se utiliza principalmente para iterar sobre las propiedades enumerable
 ```js
 const marcas = ['apple', 'google', 'meta'];
 
-for (let prop in vehiculo) {
+for (let prop in marcas) {
   console.log(prop + ': ' + marcas [prop]);
 }
 
